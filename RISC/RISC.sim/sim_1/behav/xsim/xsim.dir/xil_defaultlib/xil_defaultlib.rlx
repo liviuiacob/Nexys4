@@ -1,0 +1,16 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+D:/An3/An3 Sem1/SSC/RISC/RISC.srcs/sim_1/new/simRisc.vhd,1608037788,vhdl,,,,simrisc,,,,,,,,
+D:/An3/An3 Sem1/SSC/RISC/RISC.srcs/sources_1/imports/new/FDN.vhd,1608033376,vhdl,D:/An3/An3 Sem1/SSC/RISC/RISC.srcs/sources_1/imports/proc_RISC/proc_RISC.vhd,,,fdn,,,,,,,,
+D:/An3/An3 Sem1/SSC/RISC/RISC.srcs/sources_1/imports/proc_RISC/RISC_pkg.vhd,1494524558,vhdl,D:/An3/An3 Sem1/SSC/RISC/RISC.srcs/sources_1/imports/proc_RISC/unit_aritm.vhd,,,risc_pkg,,,,,,,,
+D:/An3/An3 Sem1/SSC/RISC/RISC.srcs/sources_1/imports/proc_RISC/mem_date.vhd,1494523436,vhdl,D:/An3/An3 Sem1/SSC/RISC/RISC.srcs/sources_1/imports/proc_RISC/proc_RISC.vhd,,,mem_date,,,,,,,,
+D:/An3/An3 Sem1/SSC/RISC/RISC.srcs/sources_1/imports/proc_RISC/mem_instr.vhd,1494523354,vhdl,D:/An3/An3 Sem1/SSC/RISC/RISC.srcs/sources_1/imports/proc_RISC/proc_RISC.vhd,,,mem_instr,,,,,,,,
+D:/An3/An3 Sem1/SSC/RISC/RISC.srcs/sources_1/imports/proc_RISC/mux_4_1.vhd,1494523382,vhdl,D:/An3/An3 Sem1/SSC/RISC/RISC.srcs/sources_1/imports/proc_RISC/unit_aritm.vhd,,,mux_4_1,,,,,,,,
+D:/An3/An3 Sem1/SSC/RISC/RISC.srcs/sources_1/imports/proc_RISC/proc_RISC.vhd,1608038593,vhdl,D:/An3/An3 Sem1/SSC/RISC/RISC.srcs/sim_1/new/simRisc.vhd,,,proc_risc,,,,,,,,
+D:/An3/An3 Sem1/SSC/RISC/RISC.srcs/sources_1/imports/proc_RISC/set_reg.vhd,1494523362,vhdl,D:/An3/An3 Sem1/SSC/RISC/RISC.srcs/sources_1/imports/proc_RISC/proc_RISC.vhd,,,set_reg,,,,,,,,
+D:/An3/An3 Sem1/SSC/RISC/RISC.srcs/sources_1/imports/proc_RISC/unit_aritm.vhd,1494523372,vhdl,D:/An3/An3 Sem1/SSC/RISC/RISC.srcs/sources_1/imports/proc_RISC/proc_RISC.vhd,,,depl;func;unit_aritm,,,,,,,,
+D:/An3/An3 Sem1/SSC/RISC/RISC.srcs/sources_1/new/CONST.vhd,1608032750,vhdl,D:/An3/An3 Sem1/SSC/RISC/RISC.srcs/sources_1/imports/proc_RISC/proc_RISC.vhd,,,const,,,,,,,,
+D:/An3/An3 Sem1/SSC/RISC/RISC.srcs/sources_1/new/DCDI.vhd,1608032517,vhdl,D:/An3/An3 Sem1/SSC/RISC/RISC.srcs/sources_1/imports/proc_RISC/proc_RISC.vhd,,,dcdi,,,,,,,,
+D:/An3/An3 Sem1/SSC/RISC/RISC.srcs/sources_1/new/SELMUXC.vhd,1608032822,vhdl,D:/An3/An3 Sem1/SSC/RISC/RISC.srcs/sources_1/imports/proc_RISC/proc_RISC.vhd,,,selmuxc,,,,,,,,

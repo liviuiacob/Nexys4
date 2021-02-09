@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-3" LaunchTime="1608123389">
+  <File Type="PA-TCL" Name="implem_RISC.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="implem_RISC_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="implem_RISC_reports.tcl"/>
+  <File Type="RDS-RDS" Name="implem_RISC.vds"/>
+  <File Type="RDS-UTIL" Name="implem_RISC_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="implem_RISC_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="implem_RISC.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="implem_RISC_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="implem_RISC_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/CONST.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/DCDI.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/FDN.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Booth_mul/Booth_mul.srcs/sources_1/new/FDN.vhd"/>
+        <Attr Name="ImportTime" Val="1604392722"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/proc_RISC/RISC_pkg.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../proc_RISC/RISC_pkg.vhd"/>
+        <Attr Name="ImportTime" Val="1494524558"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/SELMUXC.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/implem_RISC/conv_uart.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../implem_RISC/conv_uart.vhd"/>
+        <Attr Name="ImportTime" Val="1495365074"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/implem_RISC/uart_tx.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../implem_RISC/uart_tx.vhd"/>
+        <Attr Name="ImportTime" Val="1495363938"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/implem_RISC/uart_send64.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../implem_RISC/uart_send64.vhd"/>
+        <Attr Name="ImportTime" Val="1495364060"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/implem_RISC/afis_uart.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../implem_RISC/afis_uart.vhd"/>
+        <Attr Name="ImportTime" Val="1495365276"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/implem_RISC/filtru_buton.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../implem_RISC/filtru_buton.vhd"/>
+        <Attr Name="ImportTime" Val="1495365380"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/proc_RISC/mem_instr.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../proc_RISC/mem_instr.vhd"/>
+        <Attr Name="ImportTime" Val="1494523354"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/proc_RISC/set_reg.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../proc_RISC/set_reg.vhd"/>
+        <Attr Name="ImportTime" Val="1494523362"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/proc_RISC/mux_4_1.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../proc_RISC/mux_4_1.vhd"/>
+        <Attr Name="ImportTime" Val="1494523382"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/proc_RISC/unit_aritm.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../proc_RISC/unit_aritm.vhd"/>
+        <Attr Name="ImportTime" Val="1494523372"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/proc_RISC/mem_date.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../proc_RISC/mem_date.vhd"/>
+        <Attr Name="ImportTime" Val="1494523436"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/proc_RISC/proc_RISC.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../proc_RISC/proc_RISC.vhd"/>
+        <Attr Name="ImportTime" Val="1494523992"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/implem_RISC/implem_RISC.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../implem_RISC/implem_RISC.vhd"/>
+        <Attr Name="ImportTime" Val="1495365620"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="implem_RISC"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/implem_RISC/Nexys4DDR_Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../implem_RISC/Nexys4DDR_Master.xdc"/>
+        <Attr Name="ImportTime" Val="1495363760"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

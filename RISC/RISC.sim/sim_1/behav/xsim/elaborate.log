@@ -1,0 +1,32 @@
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto 8c8d2c747a184d8a903da800b389836b --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot simRisc_behav xil_defaultlib.simRisc -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package xil_defaultlib.risc_pkg
+Compiling architecture behavioral of entity xil_defaultlib.mem_instr [mem_instr_default]
+Compiling architecture behavioral of entity xil_defaultlib.set_reg [set_reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.FUNC [func_default]
+Compiling architecture behavioral of entity xil_defaultlib.mux_4_1 [mux_4_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.DEPL [depl_default]
+Compiling architecture behavioral of entity xil_defaultlib.unit_aritm [unit_aritm_default]
+Compiling architecture behavioral of entity xil_defaultlib.mem_date [mem_date_default]
+Compiling architecture behavioral of entity xil_defaultlib.FDN [fdn_default]
+Compiling architecture behavioral of entity xil_defaultlib.FDN [\FDN(n=7)\]
+Compiling architecture behavioral of entity xil_defaultlib.FDN [\FDN(n=2)\]
+Compiling architecture behavioral of entity xil_defaultlib.FDN [\FDN(n=22)\]
+Compiling architecture behavioral of entity xil_defaultlib.CONST [const_default]
+Compiling architecture behavioral of entity xil_defaultlib.DCDI [dcdi_default]
+Compiling architecture behavioral of entity xil_defaultlib.SELMUXC [selmuxc_default]
+Compiling architecture behavioral of entity xil_defaultlib.proc_RISC [proc_risc_default]
+Compiling architecture behavioral of entity xil_defaultlib.simrisc
+Built simulation snapshot simRisc_behav
